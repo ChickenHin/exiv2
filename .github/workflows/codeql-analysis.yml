@@ -11,7 +11,7 @@ concurrency:
 
 on:
   push:
-    branches: [0.29.x, main]
+    branches: [0.29.x]
     paths-ignore:
       - "*.md"
   pull_request:
