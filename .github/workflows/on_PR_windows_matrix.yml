@@ -5,14 +5,14 @@ concurrency:
   cancel-in-progress: true
 
 on:
-  push:
-    tags-ignore:
-      - '**'
-    paths-ignore:
-      - "*.md"
-  pull_request:
-    paths-ignore:
-      - "*.md"
+  # push:
+  #   tags-ignore:
+  #     - '**'
+  #   paths-ignore:
+  #     - "*.md"
+  # pull_request:
+  #   paths-ignore:
+  #     - "*.md"
   workflow_dispatch:
 
 jobs:
